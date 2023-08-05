@@ -8,6 +8,9 @@ const port = 8000; // env can be used
 app.get("/", (req,res) => {
  return res.send("Welcome to the Indian states api")
 });
+app.get("/updatedRoute", (req,res) => {
+ return res.send("Welcome to the Updated Indian states api")
+});
 
   app.get("/getStates",(req,res)=>{
     let statesObj =
